@@ -1,2 +1,4 @@
 # inspec_sec
-Checking for system compliances using Chef Inspec
+
+TODO: Enter the cookbook description here.
+
