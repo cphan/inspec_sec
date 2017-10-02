@@ -1,20 +1,18 @@
 #!/bin/bash
 
 #####################################################################################
-# Purpose: Wrapper script of the CMS EregLDAP Transformation Script for AIX/Linux hosts
+# Purpose: Script to call appropriate OS script to check for security compliance
 # Date          Name                  Version         Comments
 #------------------------------------------------------------------------
-# 2017-09-29    Chris Phan           17.09.29        Initial release
+# 2017-10-02    Chris Phan           17.10.02        Initial release
 #------------------------------------------------------------------------
 #####################################################################################
-# VERSION="17.09.29"
-
 
 # ######################
 # # host_file example
 # ####################
-# deehds0244ccpra 172.18.253.74
-# deehds0244ccpxa 172.18.253.73
+# vm1hostname x.x.x.x
+# vm2hostname y.y.y.y
 
 
 if [ $# -ne 1 ]; then
