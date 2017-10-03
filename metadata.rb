@@ -2,8 +2,8 @@ name 'inspec_sec'
 maintainer 'Chris Phan'
 maintainer_email 'phanchris@yahoo.com'
 license 'TBD'
-description 'Installs/Configures inspec_sec'
-long_description 'Installs/Configures inspec_sec'
+description 'Install/Configure Security Compliance Framework using Chef Inspec'
+long_description 'Install/Configure Security Compliance Framework using Chef Inspec'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
@@ -11,10 +11,10 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/inspec_sec/issues'
+issues_url 'https://github.com/cphan/inspec_sec/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/inspec_sec'
+source_url 'https://github.com/cphan/inspec_sec'
