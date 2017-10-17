@@ -30,7 +30,7 @@ log_file=${log_dir}/${log_name}_${curtime}.log
 script_lin="check_lin.sh"
 script_aix="check_aix.sh"
 script_win="check_win.sh"
-script_dir="."
+script_dir=$(dirname $(readlink -f "$0"))
 script_name="check_lin.sh"
 
 echo "================================ begin ====================================="
